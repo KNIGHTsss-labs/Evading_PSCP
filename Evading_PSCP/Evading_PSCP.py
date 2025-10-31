@@ -484,7 +484,7 @@ while running:
 
     # ammo UI
     ammo_text = font.render(f"Ammo : {player.ammo}", True, WHITE) if player.has_gun else font.render("Ammo : -", True, WHITE)
-    screen.blit(ammo_text, (1050, 120))
+    screen.blit(ammo_text, (800, 50))
 
     pygame.display.flip()
 
